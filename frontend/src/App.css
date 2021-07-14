@@ -1,0 +1,53 @@
+#root {
+    min-height: 100vh;
+}
+
+.custom-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.custom-link:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.spinner-custom-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.spinner-custom{
+    width: 8rem;
+    height: 8rem;
+}
+
+.custom-container {
+    padding: 0!important;
+}
+
+.todos-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.notes-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+@media only screen and (max-width: 900px) {
+    .todos-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .todos-container {
+        grid-template-columns: 1fr;
+    }
+}
