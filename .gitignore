@@ -1,0 +1,9 @@
+/.vscode
+/.env
+__pycache__
+
+prod.py
+
+.DS_Store
+
+db.sqlite3
